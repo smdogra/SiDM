@@ -23,16 +23,7 @@ generator = cms.EDFilter("Pythia8HadronizerFilter",
             'ParticleDecays:allowPhotonRadiation = on',
             '32:mayDecay = on',
             "32:mWidth = 200"
-            '32:doForceWidth = on'
-
-            # Set decay channel of dark photon to chi2+chi1                                                                                                      
-            #'32:oneChannel = 1 1.0 0 1000023 1000022',                                                                                                          
-            # Set decay length of chi2                                                                                                                           
-            #'1000023:mWidth = 4.618802e-07', # must set decay length by width; doing it by tau0 has not worked in the past                                      
-            #'1000023:tau0 = 1', # try setting tau0 directly                                                                                                     
-            # Set decay channels of chi2 (only mu or e+mu)                                                                                                       
-            #'1000023:oneChannel = 1 1.0 0 1000022 11 -11'#,                                                                                                     
-
+            '32:doForceWidth = on'                                                                      
         ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
