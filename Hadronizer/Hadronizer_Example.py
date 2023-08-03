@@ -44,7 +44,7 @@ genfilter = cms.EDFilter(
     src = cms.InputTag("genParticlesForFilter"),
     cut = cms.string(' && '.join([
         '(abs(pdgId)==11 || abs(pdgId)==13)',
-        'abs(eta)<2.4',
+        'abs(eta)<2.7',
         '(vertex.rho<740. && abs(vertex.Z)<960.)',
         'pt>4.',
         'isLastCopy()',
