@@ -1,0 +1,5 @@
+python3 submit_2023.py work2023_SIDM_BsTo2DpTo4Mu_MBs-500_MDp-5p0_ctau-0p08_el9_amd64_gcc11_CMSSW_13_2_9  200
+python3 submit_2023.py work2023_SIDM_BsTo2DpTo4Mu_MBs-500_MDp-5p0_ctau-0p8_el9_amd64_gcc11_CMSSW_13_2_9   200
+python3 submit_2023.py work2023_SIDM_BsTo2DpTo4Mu_MBs-500_MDp-5p0_ctau-40p0_el9_amd64_gcc11_CMSSW_13_2_9  200
+python3 submit_2023.py work2023_SIDM_BsTo2DpTo4Mu_MBs-500_MDp-5p0_ctau-80p0_el9_amd64_gcc11_CMSSW_13_2_9  200
+python3 submit_2023.py work2023_SIDM_BsTo2DpTo4Mu_MBs-500_MDp-5p0_ctau-8p0_el9_amd64_gcc11_CMSSW_13_2_9   200

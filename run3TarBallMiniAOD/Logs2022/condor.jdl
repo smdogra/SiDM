@@ -1,0 +1,20 @@
+
+universe = vanilla
+executable = /afs/cern.ch/work/s/sdogra/DarkMatter/run3TarBallMiniAOD/work2022EE_WZAToLNuLLA_4f_NLO_el9_amd64_gcc11_CMSSW_13_2_9/exec2022EE.sh
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = /afs/cern.ch/work/s/sdogra/DarkMatter/run3TarBallMiniAOD/work2022EE_WZAToLNuLLA_4f_NLO_el9_amd64_gcc11_CMSSW_13_2_9/submit.tgz
+transfer_output_files = ""
+input = /dev/null
+output = /afs/cern.ch/user/s/sdogra/work/DarkMatter/run3TarBallMiniAOD/Logs2022/$(Cluster)_$(Process).out
+error = /afs/cern.ch/user/s/sdogra/work/DarkMatter/run3TarBallMiniAOD/Logs2022/$(Cluster)_$(Process).err
+log = /afs/cern.ch/user/s/sdogra/work/DarkMatter/run3TarBallMiniAOD/Logs2022/$(Cluster)_$(Process).log
+rank = Mips
+arguments = $(Process) 
+use_x509userproxy = True
+x509userproxy =  /afs/cern.ch/user/s/sdogra/public/x509up
++AccountingGroup = "analysis.sdogra"
++AcctGroup = "analysis"
++ProjectName = "CpDarkMatterSimulation"
++JobFlavour = "workday"
+queue 1
